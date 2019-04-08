@@ -9,11 +9,12 @@
   background: $globalColor;
 }
 .cityPresenter__captionWrapper{
-  padding: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .cityPresenter__img{
   max-width: 100%;
-  min-height: 500px;
 }
 

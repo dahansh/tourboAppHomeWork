@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Image from "./Image";
+import Image from "../components/Image";
 import logo from "../tourbo_log.png"
-import CoverImageCaptions from "../CoverImage";
+import CoverImageCaptions from "../components/CoverImageCaptions";
 
 class Header extends Component {
   render() {
