@@ -1,20 +1,12 @@
 import React from "react";
-import Image from "react-bootstrap/Image";
-import "./CoverImage.css";
 
-const CoverImage = props => {
+const CoverImageCaptions = props => {
   return (
-    <div className={`cover-image-container`}>
-      <Image
-        src={props.img}
-        style={{ width: "100%", height: "auto" ,object_fit: "none"}}
-      />
-      <div className={`over-image-centered-text`}>
+    <div className={'header__caption text-capitalize'}>
         <h1>{props.mainText}</h1>
         <p>{props.subText}</p>
-      </div>
     </div>
   );
 };
 
-export default CoverImage;
+export default CoverImageCaptions;

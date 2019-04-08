@@ -1,0 +1,19 @@
+.cityPresenter--wrapper{
+  padding: 50px;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.cityPresenter{
+  padding: 60px;
+  background: $globalColor;
+}
+.cityPresenter__captionWrapper{
+  padding: 50px;
+}
+
+.cityPresenter__img{
+  max-width: 100%;
+  min-height: 500px;
+}
+
