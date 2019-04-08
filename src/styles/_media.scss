@@ -16,4 +16,12 @@ $screen-xl-min: 1200px;
 .cityPresenter{
   padding: 25px;
 }
+
+}
+
+@media screen and (max-width: $screen-md-min) {
+  .cityPresenter--wrapper{
+    padding: 0;
+    margin-top: 50px;
+  }
 }
