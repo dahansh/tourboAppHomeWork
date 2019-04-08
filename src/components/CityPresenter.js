@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Image from "./Image";
+
 class CityPresenter extends Component {
 
   render(props) {

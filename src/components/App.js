@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from "../include/Header";
 import CityPresenter from "./CityPresenter";
+import CityBlocks from "./CityBlocks";
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className={"app--wrapper container-fluid"}>
         <Header/>
         <CityPresenter city={'paris'}/>
+        <CityBlocks></CityBlocks>
       </div>
     );
   }
